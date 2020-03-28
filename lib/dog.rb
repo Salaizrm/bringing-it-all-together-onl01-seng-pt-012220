@@ -2,7 +2,7 @@ class Dog
 
   attr_accessor :id, :name, :breed
 
-  def initialize (id=nil,breed:,name:)
+  def initialize (id=nil,name:, breed:)
     @name = name
     @breed = breed
     @id = id
